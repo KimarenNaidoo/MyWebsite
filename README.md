@@ -1,2 +1,2 @@
 # MyWebsite
-Initial/Practice Front-End.
+Front-End for Personal Website
