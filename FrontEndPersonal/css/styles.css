@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Smythe&display=swap");
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Smythe", cursive;
+  background-image: url("../../images/bg-mountain.jpg");
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: cover;
+}
+
+.header {
+  text-align: center;
+  padding: 10px;
+}
+
+.header-name {
+  font-size: 50px;
+  word-spacing: 5px;
+  letter-spacing: 5px;
+}
+
+.header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.header ul li {
+  display: inline;
+  padding: 10px 10px 0px 10px;
+}
+
+.header ul li .nav {
+  font-size: 26px;
+  text-decoration: none;
+  color: black;
+}
+
+.header ul li a:hover {
+  color: darkgray;
+}
+
+.header ul li .active {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=styles.css.map */
