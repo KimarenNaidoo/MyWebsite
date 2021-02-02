@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Smythe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600&display=swap');
 
 // Fonts
 $fontFamily: 'Smythe', cursive;
+$fontFamilySecond: 'Titillium Web', sans-serif;
 
 // Colors
-$footerDarkBlue: hsl(0°, 3%, 42%);
+$bg-color: linear-gradient(white, black);

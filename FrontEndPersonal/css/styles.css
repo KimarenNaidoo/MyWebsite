@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Smythe&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600&display=swap");
 html {
   font-size: 100%;
   box-sizing: border-box;
@@ -16,7 +17,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Smythe", cursive;
-  background-image: url("../../images/bg-mountain.jpg");
+  background-image: linear-gradient(white, black);
   background-repeat: no-repeat;
   background-attachment: fixed;
   height: 100%;
@@ -76,6 +77,38 @@ footer .footer-bottom {
 }
 
 .main {
-  padding-bottom: 50px;
+  padding: 10px 25px 50px 25px;
+}
+
+.about {
+  margin: 20px 200px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.about .profile {
+  padding-top: 65px;
+}
+
+.about .profile img {
+  height: 260px;
+  border-radius: 50%;
+}
+
+.about .description {
+  padding: 10px;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.about .description h2 {
+  padding-bottom: 10px;
+}
+
+.about .description p {
+  padding-bottom: 10px;
+  word-spacing: 2px;
 }
 /*# sourceMappingURL=styles.css.map */
