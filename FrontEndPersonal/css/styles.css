@@ -111,4 +111,45 @@ footer .footer-bottom {
   padding-bottom: 10px;
   word-spacing: 2px;
 }
+
+.languages {
+  font-family: "Titillium Web", sans-serif;
+  margin: 20px 70px;
+}
+
+.languages h2 {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.languages .programming-cards {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+  padding: 10px;
+}
+
+.languages .programming-cards .card {
+  position: relative;
+  background-color: white;
+  height: 150px;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.languages .programming-cards .card-image {
+  margin-left: 12px;
+  height: 100px;
+  width: 90px;
+}
+
+.languages .programming-cards .card-lang {
+  text-align: center;
+  font-weight: 600;
+  margin-top: 0px;
+}
+
+.languages .programming-cards .card:hover {
+  transform: scale(1.1);
+}
 /*# sourceMappingURL=styles.css.map */

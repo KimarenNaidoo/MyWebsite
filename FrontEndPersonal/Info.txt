@@ -25,7 +25,7 @@ development, both require you to be somewhat creative and build something from t
 
 
 // skills
-
+Java, html, css, scss, js, sql, c++, vb.net, 
 // contact.
 
 // hobbies

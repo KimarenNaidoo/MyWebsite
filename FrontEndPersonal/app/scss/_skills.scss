@@ -1,0 +1,40 @@
+.languages {
+    font-family: $fontFamilySecond;
+    margin: 20px 70px;
+
+    h2 {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .programming-cards {
+        display: grid;//135px 135px 135px 135px 135px 135px 135px 135px
+        grid-gap: 10px;
+        grid-template-columns: auto auto auto auto auto auto auto auto;
+        padding: 10px;
+
+        .card {
+            position: relative;
+            background-color: white;
+            height: 150px;
+            border-radius: 8px;
+            padding: 10px;
+            
+            &-image{
+                margin-left: 12px;
+                height: 100px;
+                width: 90px;
+            }
+
+            &-lang {
+                text-align: center;
+                font-weight: 600;
+                margin-top: 0px;
+            }
+        }
+
+        .card:hover {
+            transform: scale(1.1);
+        }
+    }
+}
