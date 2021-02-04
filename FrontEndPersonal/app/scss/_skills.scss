@@ -38,3 +38,31 @@
         }
     }
 }
+
+.knowledge {
+    font-family: $fontFamilySecond;
+    margin: 30px 320px 0px 320px;
+    padding: 0;
+
+    h2 {
+        text-align: center;
+        padding-bottom: 10px;
+        color: white;
+    }
+
+    &-card {
+        background-color: white;
+        border-radius: 8px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding: 10px 0px;
+
+        .grid-card{
+            
+            li {
+                list-style: none;
+                text-align: center;
+            }
+        }
+    }
+}

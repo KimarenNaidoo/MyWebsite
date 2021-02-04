@@ -22,10 +22,12 @@ solve it. Even with art ,in particular drawing, which I do as a hobby is similar
 development, both require you to be somewhat creative and build something from the ground up.
 
 
-
-
 // skills
 Java, html, css, scss, js, sql, c++, vb.net, 
+
+practical knowledge and experience in:
+Object oriented programming, Operating system concepts as well as Database conepts and design. 
+System analysis and design, and System analysis and design.
 // contact.
 
 // hobbies

@@ -152,4 +152,29 @@ footer .footer-bottom {
 .languages .programming-cards .card:hover {
   transform: scale(1.1);
 }
+
+.knowledge {
+  font-family: "Titillium Web", sans-serif;
+  margin: 30px 320px 0px 320px;
+  padding: 0;
+}
+
+.knowledge h2 {
+  text-align: center;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.knowledge-card {
+  background-color: white;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 10px 0px;
+}
+
+.knowledge-card .grid-card li {
+  list-style: none;
+  text-align: center;
+}
 /*# sourceMappingURL=styles.css.map */
