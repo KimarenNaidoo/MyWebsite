@@ -1,0 +1,30 @@
+.about {
+    margin: 20px 200px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+
+    .profile {
+        padding-top: 65px;
+
+        img {
+            height: 260px;
+            border-radius: 50%;
+        }
+    }
+
+    .description {
+        padding: 10px;
+        font-family: $fontFamilySecond;
+        h2 {
+            padding-bottom: 10px;
+        }
+
+        p {
+            padding-bottom: 10px;
+            word-spacing: 2px;
+        }
+    }
+}
