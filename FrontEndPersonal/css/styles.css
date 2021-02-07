@@ -19,7 +19,7 @@ body {
   font-family: "Smythe", cursive;
   background-image: url("../../images/blackSpace.jpg");
   background-repeat: no-repeat;
-  background-size: 1400px 630px;
+  background-size: cover;
   background-attachment: fixed;
   height: 100%;
 }
@@ -78,7 +78,7 @@ footer .footer-bottom {
 }
 
 .main {
-  padding: 10px 25px 50px 25px;
+  padding: 10px 10px 50px 10px;
 }
 
 .about {
@@ -240,8 +240,8 @@ footer .footer-bottom {
 }
 
 .art-card-item1 {
-  grid-column-start: 2;
-  grid-column-end: 4;
+  grid-column-start: 3;
+  grid-column-end: 5;
 }
 
 .art-card-item1 img {
@@ -268,6 +268,7 @@ footer .footer-bottom {
 
 .art-card-item3 img {
   height: 300px;
+  width: 215px;
   border-radius: 8px;
   margin-top: 10px;
 }
@@ -286,5 +287,127 @@ footer .footer-bottom {
 
 .art-card-item3:hover {
   transform: scale(1.1);
+}
+
+@media (max-width: 375px) {
+  body {
+    background-image: url("../../images/wil-stewart-T26KCgCPsCI-unsplash.jpg");
+  }
+  .header-name {
+    font-size: 30px;
+    padding-bottom: 10px;
+  }
+  .header ul li .nav {
+    font-size: 16px;
+  }
+  footer .footer-bottom {
+    font-size: 16px;
+  }
+  .main .about {
+    margin: 10px 10px 0 10px;
+    grid-template-columns: auto;
+  }
+  .main .about .profile {
+    padding: 0 77px;
+  }
+  .main .about .profile img {
+    height: 160px;
+  }
+  .main .about .description {
+    text-align: center;
+  }
+  .main .about .description h2 {
+    font-size: 20px;
+  }
+  .main .about .description p {
+    font-size: 15px;
+  }
+  .main .languages {
+    margin: 10px 10px 0 10px;
+  }
+  .main .languages h2 {
+    font-size: 20px;
+  }
+  .main .languages .programming-cards {
+    grid-template-columns: auto auto;
+    padding: 0px 20px;
+  }
+  .main .languages .programming-cards .card {
+    height: 100px;
+    padding-bottom: 0;
+  }
+  .main .languages .programming-cards .card-image {
+    height: 55px;
+    width: 55px;
+    margin-left: 35px;
+    margin-right: 35px;
+  }
+  .main .languages .programming-cards .card-lang {
+    font-size: 13px;
+    margin-top: 5px;
+  }
+  .main .knowledge {
+    margin: 10px 10px 0 10px;
+  }
+  .main .knowledge h2 {
+    padding: 10px;
+    font-size: 20px;
+  }
+  .main .knowledge-card {
+    grid-template-columns: auto;
+    margin: 0px 15px;
+  }
+  .main .contact {
+    margin: 0;
+  }
+  .main .contact-card {
+    height: 60px;
+  }
+  .main .contact-card img {
+    height: 40px;
+    margin-left: 5px;
+  }
+  .main .contact-card .gmail {
+    height: 35px;
+  }
+  .main .contact-card a {
+    padding-top: 8px;
+    padding-left: 30px;
+  }
+  .main .art {
+    margin: 0;
+  }
+  .main .art h2 {
+    font-size: 20px;
+  }
+  .main .art-images {
+    margin: 0;
+    grid-template-columns: auto auto;
+  }
+  .main .art-card img {
+    height: 200px;
+  }
+  .main .art-card-item1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  .main .art-card-item1 img {
+    height: 200px;
+  }
+  .main .art-card-item2 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  .main .art-card-item2 img {
+    height: 200px;
+  }
+  .main .art-card-item3 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+  .main .art-card-item3 img {
+    height: 200px;
+    width: 140px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

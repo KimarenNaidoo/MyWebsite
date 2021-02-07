@@ -24,8 +24,8 @@
     }
 
     &-card-item1 {
-        grid-column-start: 2;
-        grid-column-end: 4;
+        grid-column-start: 3;
+        grid-column-end: 5;
 
         img {
             height: 300px;
@@ -51,6 +51,7 @@
 
         img {
             height: 300px;
+            width: 215px;
             border-radius: 8px;
             margin-top: 10px;
         }

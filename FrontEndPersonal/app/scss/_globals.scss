@@ -18,7 +18,7 @@ body {
     //background-image: $bg-color;
     background-image: url("../../images/blackSpace.jpg");
     background-repeat: no-repeat;
-    background-size: 1400px 630px;
+    background-size: cover;
     background-attachment: fixed;
     height: 100%;
     
@@ -78,6 +78,6 @@ footer {
 }
 
 .main {
-    padding: 10px 25px 50px 25px;
+    padding: 10px 10px 50px 10px;
 }
 
