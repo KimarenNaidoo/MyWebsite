@@ -1,8 +1,177 @@
+ // Tablet
+ @media(max-width: 768px){
+
+    .header{
+
+        &-name {
+            font-size: 35px;
+            padding-bottom: 10px;
+        }
+
+        ul {
+
+            li {
+
+                .nav {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+    
+    body {
+        background-size: cover;
+    }
+
+    footer {
+
+        .footer-bottom {
+            font-size: 20px;
+        }
+    }
+
+    .main{
+
+        .about{
+            margin: 5px 20px;
+            
+            .profile {
+                padding-top: 100px;
+
+                img {
+                    height: 200px;
+
+                }
+            }
+
+            .description {
+
+                h2{
+                    font-size: 20px;
+                }
+
+                p {
+                    font-size: 15px;
+                }
+            }
+        }
+
+        .languages {
+            margin: 0px 20px;
+
+            h2 {
+                font-size: 20px;
+                padding-bottom: 10px;
+            }
+
+            .programming-cards {
+                grid-template-columns: auto auto auto auto;
+                padding: 0px 30px;
+                margin: 0px 20px;
+
+                .card {
+                    height: 130px;
+                    width: 130px;
+                    padding: 0;
+                    margin-left: 7px;
+
+                    &-image {
+                        height: 80px;
+                        width: 70px;
+                        margin-top: 10px;
+                        margin-left: 30px;
+                    }
+
+                    &-lang {
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+
+        .knowledge {
+            margin: 0;
+            padding-top: 20px;
+
+            h2 {
+                font-size: 20px;
+            }
+
+            &-card {
+                margin: 0px 75px;
+                font-size: 15px;
+            }
+        }
+
+        .contact {
+            margin: 0px 100px;
+
+            &-card {
+                height: 65px;
+
+                img {
+                    height: 45px;
+                    margin-left: 10px;
+                }
+
+                .gmail {
+                    height: 40px;
+                    padding: 4px;
+                }
+
+                a {
+                    font-size: 15px;
+                    padding-left: 40px;
+                }
+            }
+
+        }
+
+        .art {
+            margin: 0px 100px;
+
+            h2 {
+                font-size: 20px;
+                padding-bottom: 5px;
+            }
+
+            &-images {
+                grid-template-columns: auto auto;
+            }
+
+            &-card {
+
+                img {
+                    height: 300px;
+                }
+            }
+
+            &-card-item1 {
+                grid-column-start: 1;
+                grid-column-end: 3;
+            }
+
+            &-card-item2 {
+                grid-column-start: 1;
+                grid-column-end: 2;
+            }
+
+            &-card-item3 {
+                grid-column-start: 2;
+                grid-column-end: 3;
+            }
+        }
+
+    }
+
+}
+
 // Mobile
  @media(max-width: 375px){
 
     body {
         background-image: url("../../images/wil-stewart-T26KCgCPsCI-unsplash.jpg");
+        background-size: cover;
     }
 
     .header{
@@ -176,3 +345,5 @@
         }
     }
  }
+
+
