@@ -15,11 +15,11 @@ body {
     margin: 0;
     padding: 0;
     font-family: $fontFamily ;
-    //background-image: $bg-color;
-    background-image: url("../../images/blackSpace.jpg");
-    background-repeat: no-repeat;
-    background-size: 1440px 625px;
+    background-image: $bg-color;
+    //background-image: url("../../images/blackSpace.jpg");
     background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;//1440px 625px
     height: 100%;
     
 }

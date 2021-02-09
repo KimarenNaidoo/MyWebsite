@@ -170,7 +170,7 @@
  @media(max-width: 375px){
 
     body {
-        background-image: url("../../images/wil-stewart-T26KCgCPsCI-unsplash.jpg");
+        //background-image: url("../../images/wil-stewart-T26KCgCPsCI-unsplash.jpg");
         background-size: cover;
     }
 
@@ -227,6 +227,7 @@
         }
 
         .languages {
+            border: 1px solid red;
             margin: 10px 10px 0 10px;
 
             h2 {
@@ -235,7 +236,7 @@
 
             .programming-cards {
                 grid-template-columns: auto auto;
-                padding: 0px 20px;
+                padding: 0;
 
                 .card {
                     height: 100px;

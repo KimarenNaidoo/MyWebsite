@@ -17,10 +17,10 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Smythe", cursive;
-  background-image: url("../../images/blackSpace.jpg");
-  background-repeat: no-repeat;
-  background-size: 1440px 625px;
+  background-image: linear-gradient(white, black);
   background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 100%;
 }
 
@@ -403,7 +403,6 @@ footer .footer-bottom {
 
 @media (max-width: 375px) {
   body {
-    background-image: url("../../images/wil-stewart-T26KCgCPsCI-unsplash.jpg");
     background-size: cover;
   }
   .header-name {
@@ -436,6 +435,7 @@ footer .footer-bottom {
     font-size: 15px;
   }
   .main .languages {
+    border: 1px solid red;
     margin: 10px 10px 0 10px;
   }
   .main .languages h2 {
@@ -443,7 +443,7 @@ footer .footer-bottom {
   }
   .main .languages .programming-cards {
     grid-template-columns: auto auto;
-    padding: 0px 20px;
+    padding: 0;
   }
   .main .languages .programming-cards .card {
     height: 100px;
