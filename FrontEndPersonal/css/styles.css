@@ -464,6 +464,7 @@ footer .footer-bottom {
   .main .knowledge h2 {
     padding: 10px;
     font-size: 20px;
+    color: white;
   }
   .main .knowledge-card {
     grid-template-columns: auto;
