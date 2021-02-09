@@ -40,7 +40,7 @@ footer .footer-bottom {
 }
 
 .header {
-  color: white;
+  color: black;
   text-align: center;
   padding: 10px;
 }
@@ -66,7 +66,7 @@ footer .footer-bottom {
 .header ul li .nav {
   font-size: 26px;
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 .header ul li a:hover {
@@ -121,7 +121,7 @@ footer .footer-bottom {
 .languages h2 {
   text-align: center;
   padding-bottom: 10px;
-  color: white;
+  color: black;
 }
 
 .languages .programming-cards {
@@ -164,7 +164,7 @@ footer .footer-bottom {
 .knowledge h2 {
   text-align: center;
   padding-bottom: 10px;
-  color: white;
+  color: black;
 }
 
 .knowledge-card {
@@ -220,7 +220,7 @@ footer .footer-bottom {
   font-family: "Titillium Web", sans-serif;
   text-align: center;
   margin: 10px 100px;
-  color: white;
+  color: black;
 }
 
 .art h2 {
@@ -420,7 +420,7 @@ footer .footer-bottom {
     grid-template-columns: auto;
   }
   .main .about .profile {
-    padding: 0 77px;
+    padding: 0 76px;
   }
   .main .about .profile img {
     height: 160px;
@@ -435,7 +435,6 @@ footer .footer-bottom {
     font-size: 15px;
   }
   .main .languages {
-    border: 1px solid red;
     margin: 10px 10px 0 10px;
   }
   .main .languages h2 {
