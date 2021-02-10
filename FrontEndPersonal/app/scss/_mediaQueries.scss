@@ -167,7 +167,7 @@
 }
 
 // Mobile
- @media(max-width: 375px){
+ @media(max-width: 425px){
 
     body {
         //background-image: url("../../images/wil-stewart-T26KCgCPsCI-unsplash.jpg");
@@ -207,6 +207,7 @@
 
             .profile {
                 padding: 0 76px;
+                margin: auto;
                 
                 img {
                     height: 160px;

@@ -401,7 +401,7 @@ footer .footer-bottom {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   body {
     background-size: cover;
   }
@@ -421,6 +421,7 @@ footer .footer-bottom {
   }
   .main .about .profile {
     padding: 0 76px;
+    margin: auto;
   }
   .main .about .profile img {
     height: 160px;
